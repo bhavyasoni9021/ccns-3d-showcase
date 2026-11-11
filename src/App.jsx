@@ -17,7 +17,6 @@ export default function App() {
         <How />
         <Stack />
         <GetIt />
-        <Team />
       </main>
       <Footer />
     </>
