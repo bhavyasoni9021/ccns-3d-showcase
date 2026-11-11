@@ -20,7 +20,6 @@ export function Nav() {
         <a href="#how">How it works</a>
         <a href="#stack">Stack</a>
         <a href="#get">Get the code</a>
-        <a href="#team">Team</a>
       </nav>
       <a href="#demo" className="btn primary sm">Live demo</a>
     </header>
@@ -224,31 +223,7 @@ export function GetIt() {
   )
 }
 
-const TEAM = [
-  ['Aravind Sai K', 'RA2311053010035', 'AS'],
-  ['Sainath Reddy E', 'RA2311053010038', 'SR'],
-  ['Surya Teja D', 'RA2311053010040', 'ST'],
-]
 
-export function Team() {
-  return (
-    <section id="team" className="section container">
-      <div className="head reveal">
-        <p className="eyebrow">Team</p>
-        <h2>The people <span className="grad">behind it.</span></h2>
-      </div>
-      <div className="grid3">
-        {TEAM.map(([n, r, i]) => (
-          <article key={r} className="card glass person reveal">
-            <div className="avatar">{i}</div>
-            <h3>{n}</h3>
-            <code>{r}</code>
-          </article>
-        ))}
-      </div>
-    </section>
-  )
-}
 
 export function Footer() {
   return (
