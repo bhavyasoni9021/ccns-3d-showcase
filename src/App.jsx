@@ -1,5 +1,5 @@
 import LiveDemo from './ui/LiveDemo'
-import { DemoIntro, Footer, GetIt, Hero, How, Nav, Overview, Stack, Team } from './ui/Sections'
+import { DemoIntro, Footer, GetIt, Hero, How, Nav, Overview, Stack } from './ui/Sections'
 import { useRevealOnScroll } from './lib/env'
 
 export default function App() {
